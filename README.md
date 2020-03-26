@@ -9,6 +9,7 @@ The aim of this project is to share some of the work done on the Bikeshare proje
 
 ### Files used
 The are three csv files used 'Chicago', 'Washington' and 'New York City'. There is also a Bikeshare.py file shared with the Python code to query these data.
+A .gitignore was included to exclude the three csv files.
 
 ### Credits
 https://nyc.streetsblog.org/2018/04/25/nyc-has-a-bike-share-system-that-works-why-arent-we-expanding-it/
