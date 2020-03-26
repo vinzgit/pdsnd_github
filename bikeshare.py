@@ -210,14 +210,14 @@ def raw_data(df):
     while True:
         answer = input('Would you like to see 5 lines of raw data? Enter yes or no: ').lower()
         
-        # Check if response is yes, print the raw data and increment count by 5
+        # Check if response is yes, print the raw data and increment count by 10
         
         if answer == 'yes':
             print (df[:count])
             if count == len(df):
                 count +=0
             else:
-                count += 5
+                count += 10
         elif answer == 'no':
             break
         else:
