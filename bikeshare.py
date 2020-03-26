@@ -154,6 +154,10 @@ def trip_duration_stats(df):
     # TO DO: display total travel time
     total_duration = df['Trip Duration'].sum()
     print ("The total travel time is: {0:,.0f} minutes".format(total_duration))
+    
+    # TO DO: display median travel time
+    median_duration = df['Trip Duration'].median()
+    print ("The median travel time is: {0:,.0f} minutes".format(median_duration))
 
     # TO DO: display mean travel time
     mean_duration = df['Trip Duration'].mean()
